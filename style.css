@@ -10,7 +10,7 @@ a.logo {
 
 @font-face {
     font-family: "test";
-    src: url('./font/GothamBold.ttf')
+    src: local('./font/GothamBold.ttf')
 }
 
 /* Navigation */
