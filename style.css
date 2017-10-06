@@ -6,7 +6,16 @@ a.navbar {
 }
 a.logo {
     position: fixed;
+    font-family: Gotham;
+    margin-top: 5px;
+    margin-left: 5px;
 }
+
+img.fill {
+  fill: white;
+}
+
+
 
 @font-face {
     font-family: "Gotham";
@@ -82,4 +91,8 @@ body {
 .center {
   display: block;
   margin: auto;
+}
+
+.inverted {
+	filter: invert(100%);
 }
