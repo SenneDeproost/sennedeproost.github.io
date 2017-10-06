@@ -1,7 +1,10 @@
+
+
 a.navbar {
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: Gotham;
+
 
 }
 a.logo {
@@ -9,10 +12,15 @@ a.logo {
     font-family: Gotham;
     margin-top: 5px;
     margin-left: 5px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-img.fill {
-  fill: white;
+img.logo {
+  margin-left: 3px;
+  margin-top: 3px;
+  width: 100%;
 }
 
 
@@ -29,7 +37,7 @@ ul.navbar {
     padding: 0;
     overflow: hidden;
     background-color: #1C1C1C;
-    width: 100%
+    width: 100%;
 }
 
 li.navbutton {
@@ -38,6 +46,7 @@ li.navbutton {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 100%;
     float: right;
     font-family: Gotham
 }
@@ -45,6 +54,28 @@ li.navbutton {
 li.navbutton:hover {
     background-color: #2E2E2E;
 }
+
+p.contact {
+  font-size: 50px;
+  font-family: Gotham;
+  color: white;
+  align: right;
+}
+
+a.contact {
+  text-decoration: none;
+  color: white;
+}
+
+
+/*Use a media query to add a break point at 800px:*/
+@media (max-width:800px) {
+  .logo {
+    align: left;/*The width is 100%, when the viewport is 800px or smaller*/
+  }
+}
+
+
 
 
 /*Hola Pola, hier begint lelijke code.*/
