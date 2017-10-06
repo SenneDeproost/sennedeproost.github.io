@@ -10,17 +10,16 @@ a.navbar {
 a.logo {
     position: fixed;
     font-family: Gotham;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 1px;
     height: auto;
-    margin-left: auto;
+    margin: auto auto;
     margin-right: auto;
 }
 
 img.logo {
   margin-left: 3px;
   margin-top: 3px;
-  width: 100%;
+  width: 90%;
 }
 
 
@@ -44,9 +43,9 @@ li.navbutton {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 20px;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 120%;
     float: right;
     font-family: Gotham
 }
@@ -69,9 +68,9 @@ a.contact {
 
 
 /*Use a media query to add a break point at 800px:*/
-@media (max-width:800px) {
-  .logo {
-    align: left;/*The width is 100%, when the viewport is 800px or smaller*/
+@media (max-width:850px) {
+  img.logo {
+    width: 5%;/*The width is 100%, when the viewport is 800px or smaller*/
   }
 }
 

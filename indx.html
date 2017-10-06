@@ -8,7 +8,20 @@
   <link rel="stylesheet" href="style.css">
   <script src="./script.js"></script>
 
+  <script>
+  window.onscroll = function() {
+    growShrinkLogo()
+  };
 
+  function growShrinkLogo() {
+    var Logo = document.getElementById("Logo")
+    if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+      Logo.style.width = '30px';
+    } else {
+      Logo.style.width = '60px';
+    }
+  }
+  </script>
 
 
 
@@ -26,7 +39,7 @@
 
 <!-- <div class="top"><div class="title">Fade Away</div></div> -->
 
-  <a class="logo" href="./index.html"><img class="logo" src="image/website_logo.svg" alt="Homepage" /></a>
+  <a class="logo"  href="./index.html"><img class="logo" src="image/website_logo.svg" alt="Homepage" /></a>
 
   <!-- Navigation bar -->
   <ul class="navbar">
@@ -34,7 +47,6 @@
     <li class="navbutton" <a href="./portfolio.html"> Portfolio </a></li>
     <li class="navbutton" <a href="./about.html"> About </a></li>
     <li class="navbutton" <a href="./index.html"> Home </a></li>
-
 
 
 <!--
