@@ -1,7 +1,7 @@
 a.navbar {
   text-decoration: none;
   color: white;
-  font-family: test;
+  font-family: Gotham;
 
 }
 a.logo {
@@ -9,7 +9,7 @@ a.logo {
 }
 
 @font-face {
-    font-family: "test";
+    font-family: "Gotham";
     src: local('./font/GothamBold.ttf')
 }
 
@@ -30,6 +30,7 @@ li.navbutton {
     padding: 14px 16px;
     text-decoration: none;
     float: right;
+    font-family: Gotham
 }
 
 li.navbutton:hover {
